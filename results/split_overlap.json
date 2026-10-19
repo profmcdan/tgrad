@@ -1,0 +1,47 @@
+{
+  "42": {
+    "cycles": 600,
+    "straddling": 292,
+    "frac_straddling": 0.4866666666666667,
+    "entirely_in_test": 5,
+    "test_illicit_nodes": 432,
+    "test_illicit_sharing_a_cycle_with_train": 421,
+    "frac_test_illicit_exposed": 0.9745370370370371
+  },
+  "0": {
+    "cycles": 600,
+    "straddling": 286,
+    "frac_straddling": 0.4766666666666667,
+    "entirely_in_test": 5,
+    "test_illicit_nodes": 423,
+    "test_illicit_sharing_a_cycle_with_train": 410,
+    "frac_test_illicit_exposed": 0.9692671394799054
+  },
+  "1": {
+    "cycles": 600,
+    "straddling": 284,
+    "frac_straddling": 0.47333333333333333,
+    "entirely_in_test": 12,
+    "test_illicit_nodes": 439,
+    "test_illicit_sharing_a_cycle_with_train": 406,
+    "frac_test_illicit_exposed": 0.9248291571753986
+  },
+  "2": {
+    "cycles": 600,
+    "straddling": 285,
+    "frac_straddling": 0.475,
+    "entirely_in_test": 8,
+    "test_illicit_nodes": 431,
+    "test_illicit_sharing_a_cycle_with_train": 410,
+    "frac_test_illicit_exposed": 0.951276102088167
+  },
+  "3": {
+    "cycles": 600,
+    "straddling": 285,
+    "frac_straddling": 0.475,
+    "entirely_in_test": 8,
+    "test_illicit_nodes": 424,
+    "test_illicit_sharing_a_cycle_with_train": 400,
+    "frac_test_illicit_exposed": 0.9433962264150944
+  }
+}

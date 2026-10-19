@@ -1,0 +1,84 @@
+{
+  "hardware": {
+    "cpu": "Apple M5",
+    "cores": "10",
+    "ram_gb": 24.0,
+    "os": "macOS 26.6.2",
+    "python": "3.13.12",
+    "torch": "2.11.0",
+    "threads": 8,
+    "device": "cpu"
+  },
+  "rows": [
+    {
+      "edges": 200043,
+      "nodes": 57971,
+      "encoder_sec": 11.311895791994175,
+      "encoder_events_per_sec": 17684.303646217944,
+      "energy_head_sec": 0.004970499998307787,
+      "monitor_sec": 0.08197425000253133,
+      "monitor_events_per_sec": 2440315.098873399,
+      "nnz_A3": 2586757
+    },
+    {
+      "edges": 400048,
+      "nodes": 115942,
+      "encoder_sec": 22.51947483299591,
+      "encoder_events_per_sec": 17764.535050961444,
+      "energy_head_sec": 0.006491499996627681,
+      "monitor_sec": 0.18239416599681135,
+      "monitor_events_per_sec": 2193315.766508638,
+      "nnz_A3": 5164091
+    },
+    {
+      "edges": 600188,
+      "nodes": 173913,
+      "encoder_sec": 33.70859000000928,
+      "encoder_events_per_sec": 17805.194462296844,
+      "energy_head_sec": 0.014854000008199364,
+      "monitor_sec": 0.3189940840093186,
+      "monitor_events_per_sec": 1881501.9778939444,
+      "nnz_A3": 7768396
+    },
+    {
+      "edges": 799963,
+      "nodes": 231884,
+      "encoder_sec": 45.30814204199123,
+      "encoder_events_per_sec": 17656.053944092444,
+      "energy_head_sec": 0.023053832992445678,
+      "monitor_sec": 0.551288791000843,
+      "monitor_events_per_sec": 1451077.9342124818,
+      "nnz_A3": 10324186
+    },
+    {
+      "edges": 999834,
+      "nodes": 289855,
+      "encoder_sec": 57.37784354199539,
+      "encoder_events_per_sec": 17425.437037699263,
+      "energy_head_sec": 0.05597254198801238,
+      "monitor_sec": 0.8765070829977049,
+      "monitor_events_per_sec": 1140702.7043985885,
+      "nnz_A3": 12947942
+    },
+    {
+      "edges": 1200098,
+      "nodes": 347826,
+      "encoder_sec": 69.4653514160018,
+      "encoder_events_per_sec": 17276.210017467063,
+      "energy_head_sec": 0.06546879200323019,
+      "monitor_sec": 0.8379475830006413,
+      "monitor_events_per_sec": 1432187.435522541,
+      "nnz_A3": 15516906
+    },
+    {
+      "edges": 1999918,
+      "nodes": 579710,
+      "encoder_sec": 114.93996745799086,
+      "encoder_events_per_sec": 17399.674318952155,
+      "energy_head_sec": 0.12584670900832862,
+      "monitor_sec": 1.6757890830049291,
+      "monitor_events_per_sec": 1193418.6827460777,
+      "nnz_A3": 25867209
+    }
+  ]
+}

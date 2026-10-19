@@ -1,0 +1,9 @@
+{
+  "pairwise_cosine_mean": 0.996246874332428,
+  "pairwise_cosine_sd": 0.06112212315201759,
+  "share_sq_norm_mean_direction": 0.9981397986412048,
+  "logit_range_train": 0.012802302837371826,
+  "logit_range_test": 0.01052403450012207,
+  "logit_auc_train": 0.6135718963908354,
+  "logit_auc_test": 0.6215830239547424
+}

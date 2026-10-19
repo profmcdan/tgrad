@@ -1,0 +1,23 @@
+\begin{table}[t]
+\caption{\rev{Elliptic test window (time steps $35$--$49$): mean $\pm$ standard deviation over 3 seeds. The Random Forest rows are attribute-based references, not graph baselines; the second is the row the submitted version labelled as the nodal model. ``Nodal posterior, alone'' scores each transaction by the model's own posterior \eqref{eq:posterior}. Brier is computed on each model's predicted probabilities. Lower is better for FPR and Brier.}}
+\label{tab:elliptic}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{p{2.2cm}ccccc}
+\toprule
+Model & ROC-AUC & PR-AUC & $F_1$ & FPR & Brier\\
+\midrule
+GCN & $0.890\pm0.004$ & $0.642\pm0.006$ & $0.568\pm0.005$ & $0.005\pm0.001$ & $0.037\pm0.002$\\
+GraphSAGE & $0.909\pm0.001$ & $0.702\pm0.012$ & $0.700\pm0.005$ & $0.008\pm0.003$ & $0.032\pm0.003$\\
+GAT & $0.875\pm0.005$ & $0.610\pm0.021$ & $0.538\pm0.043$ & $0.005\pm0.001$ & $0.039\pm0.001$\\
+GIN & $0.840\pm0.011$ & $0.479\pm0.025$ & $0.493\pm0.038$ & $0.020\pm0.001$ & $0.058\pm0.003$\\
+Graph Transformer & $0.872\pm0.011$ & $0.598\pm0.060$ & $0.609\pm0.021$ & $0.008\pm0.002$ & $0.039\pm0.002$\\
+\midrule
+RF, attributes & $0.937\pm0.004$ & $0.798\pm0.003$ & $0.784\pm0.009$ & $0.000\pm0.000$ & $0.022\pm0.000$\\
+RF, attributes + encoder & $0.932\pm0.003$ & $0.786\pm0.005$ & $0.755\pm0.015$ & $0.001\pm0.000$ & $0.024\pm0.000$\\
+Nodal posterior, alone & $0.839\pm0.013$ & $0.428\pm0.014$ & $0.434\pm0.015$ & $0.050\pm0.007$ & $0.115\pm0.035$\\
+Nodal posterior, prior-corrected & $0.839\pm0.013$ & $0.428\pm0.014$ & -- & -- & $0.049\pm0.003$\\
+\bottomrule
+\end{tabular}
+\end{table}
