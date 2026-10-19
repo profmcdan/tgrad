@@ -111,6 +111,11 @@ training split only; the encoder and energy head are trained on the labels of tr
 entities only. On the same software versions and CPU, the scripts reproduce the files in
 `results/` exactly. Other platforms may differ in the last digits.
 
+## Licence
+
+The code is released under the MIT Licence (see `LICENSE`). The Elliptic dataset is not part of
+this repository and remains under the terms of its own release.
+
 ## Contact
 
 Daniel T. Ale, Department of Electrical and Electronics Engineering, Federal University of
