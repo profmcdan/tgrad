@@ -1,0 +1,14 @@
+{
+  "title": "tgrad: cyclic monitoring of financial transaction streams (code, benchmark generator and results)",
+  "upload_type": "software",
+  "description": "Code, synthetic benchmark generator and per-seed results for the paper \"A Nodal Probability Distribution Model with Distribution-Governed Cyclic Monitoring for Financial Transaction Streams\". The repository contains the benchmark generator, the event-driven encoder and energy head, one script for each table and figure in the paper, and the outputs behind every reported number. The Elliptic dataset is not redistributed.",
+  "creators": [
+    {"name": "Ale, Daniel T.", "affiliation": "Federal University of Technology, Akure"},
+    {"name": "Ogunti, E. O.", "affiliation": "Federal University of Technology, Akure"},
+    {"name": "Oyetunji, S. A.", "affiliation": "Federal University of Technology, Akure"},
+    {"name": "Ponnle, A. A.", "affiliation": "Federal University of Technology, Akure"},
+    {"name": "Adedeji, K. B.", "affiliation": "Federal University of Technology, Akure"}
+  ],
+  "license": "MIT",
+  "keywords": ["money laundering", "cycle detection", "closed walks", "temporal graphs", "anti-money laundering", "graph neural networks"]
+}

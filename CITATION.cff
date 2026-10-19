@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "tgrad: cyclic monitoring of financial transaction streams (code, benchmark generator and results)"
+type: software
+license: MIT
+repository-code: "https://github.com/profmcdan/tgrad"
+version: 1.0.0
+authors:
+  - family-names: Ale
+    given-names: Daniel T.
+    affiliation: Federal University of Technology, Akure
+  - family-names: Ogunti
+    given-names: E. O.
+    affiliation: Federal University of Technology, Akure
+  - family-names: Oyetunji
+    given-names: S. A.
+    affiliation: Federal University of Technology, Akure
+  - family-names: Ponnle
+    given-names: A. A.
+    affiliation: Federal University of Technology, Akure
+  - family-names: Adedeji
+    given-names: K. B.
+    affiliation: Federal University of Technology, Akure
